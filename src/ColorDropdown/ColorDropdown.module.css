@@ -1,0 +1,43 @@
+.dropdownWrapper {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.addButton {
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+    font-weight: bold;
+    width: 3rem;
+    height: 3rem;
+
+    &:hover {
+        cursor: pointer;
+        transform: scale(1.05);
+        transition: 0.7s;
+    }
+}
+
+.selectColor {
+    padding: 0.5rem;
+    border-radius: 10px;
+    font-weight: bold;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.colorBoxesWrapper {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 0.5rem;
+}
+
+.colorBox {
+    width: 4rem;
+    height: 4rem;
+    border: 1px solid black;
+}

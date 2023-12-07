@@ -1,0 +1,31 @@
+.countWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.countButton {
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: greenyellow;
+    font-weight: bold;
+    width: fit-content;
+
+    &:hover {
+        cursor: pointer;
+        opacity: 0.7;
+        transition: 0.4s;
+    }
+}
+
+.countSquare {
+    width: 4rem;
+    height: 4rem;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    background-color: white;
+}

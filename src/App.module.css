@@ -1,0 +1,26 @@
+.firstPartWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background-color: beige;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.secondPartWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background-color: beige;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.thirdPartWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  background-color: beige;
+  padding: 1rem;
+  border-radius: 10px;
+}

@@ -1,0 +1,32 @@
+.countHundredWrapper {
+    border: 1px solid black;
+    width: fit-content;
+    height: 200px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.countHundredButton {
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+    font-weight: bold;
+    width: 3rem;
+    height: 3rem;
+
+    &:hover {
+        cursor: pointer;
+        transform: scale(1.05);
+        transition: 0.7s;
+    }
+}
+
+.countHundredInput {
+    padding: 0.5rem;
+    border-radius: 10px;
+    width: 250px;
+    border: 2px solid gray;
+}
